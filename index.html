@@ -11,6 +11,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display"; color: cornflowerblue;
   letter-spacing: 5px;
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 </style>
 <body>
 
@@ -30,8 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="Dokter.png" alt="Dokter" width="1600" height="800">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:500px" id="home">
+  <img class="w3-image" src="Dokter.png" alt="Dokter" width="1500" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <p><a href="#contact" class="w3-button w3-padding-large w3-black w3-opacity w3-hover-opacity-off">About Us</a></p>
   </div>
@@ -102,8 +122,34 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
     <h1>Galery</h1><br>
-    <p>Spanish Flu<p><br>
-    <p>ABOUT TEAM</p>
+    <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+    
   </div>
   
 <!-- End page content -->
