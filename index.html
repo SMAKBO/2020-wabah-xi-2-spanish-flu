@@ -13,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
+<!-- Navbar (sit on top). Hide on small screens-->
+<div class="w3-top w3-hide-small">
   <div class="w3-bar w3-blue w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">All About Spanish Flu</a>
     <!-- Right-sided navbar links. -->
@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6 {
     </div>
   </div>
 </div>
+
+<!--Navbar on small screens -->
+ <div id="navDemo" class="w3-bar-block w3-blue w3-hide-large w3-hide-medium">
+  <a href="pencegahan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Pencegahan</a>
+  <a href="pengobatan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Pengobatan</a>
+  <a href="penanggulangaan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Penanggulangan</a>
+  <a href="galery.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Galery</a>
+ </div>
+
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:300px" id="home">
