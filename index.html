@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;"}
+body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display"; color: cornflowerblue;
   letter-spacing: 5px;
@@ -15,31 +15,31 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
- <div class="w3-bar" id="myNavbar">
-  <a class="w3-bar-item w3-button" onclick="toggleFunction()"
-  <a href="#home" class="w3-bar-item w3-blue w3-button">All About Spanish Flu</a>
-  <a href="pencegahan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Pencegahan</a>
-  <a href="pengobatan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Pengobatan</a>
-  <a href="penanggulangan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Penanggulangan</a>
-  <a href="galery.html" class="w3-bar-item w3-button w3-hide-small w3-right">Galery</a>
- </div>
+  <div class="w3-bar" id="mynavbar">
+  	<a class="w3-padding w3-card w3-button w3-blue w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu" style="letter-spacing:4px;">
+      <i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button">All About Spanish Flu</a>
+    <!-- Right-sided navbar links. -->
+    <div class="w3-right">
+      <a href="pencegahan.html" class="w3-bar-item w3-button w3-hide-small">Pencegahan</a>
+      <a href="pengobatan.html" class="w3-bar-item w3-button w3-hide-small">Pengobatan</a>
+       <a href="penanggulangan.html" class="w3-bar-item w3-button w3-hide-small">Penanggulangan</a>
+       <a href="galery.html" class="w3-bar-item w3-button w3-hide-small">Galery</a>
+    </div>
+  </div>
 
- <!--Navbar on small screens -->
- <div id="navDemo" class="w3-bar-block w3-blue w3-hide-large w3-hide-medium">
-     <a href="pencegahan.html" class="w3-bar-item-w3-button"
-     onclick="toggleFunction()">Pencegahan</a>
-     <a href="pengobatan.html" class="w3-bar-item-w3-button"
-     onclick="toggleFunction()">Pengobatan</a>
-     <a href="penanggulangan.html" class="w3-bar-item-w3-button"
-     onclick="toggleFunction()">Penanggulangan</a>
-     <a href="galery.html" class="w3-bar-item-w3-button"
-     onclick="toggleFunction()">Galery</a>
- </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="pencegahan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Pencegahan</a>
+    <a href="pengobatan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Pengobatan</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Penanggulangan</a>
+    <a href="galery.html" class="w3-bar-item w3-button">Galery</a>
+  </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:300px" id="home">
-  <img class="w3-image" src="Dokter.png" alt="dokter" width="1500" height="500">
+  <img class="w3-image" src="Dokter.png" alt="dokter" width="1400" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <p><a href="aboutus.html" class="w3-button w3-padding-large w3-black w3-opacity w3-hover-opacity-off">About Us</a></p>
   </div>
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center"><strong>Spanish Flu ??</strong></h1><br>
+      <h1 class="w3-center">Spanish Flu ??</h1><br>
       <h5 class="w3-center">Pandemi flu 1918 (Spanish flu)</h5>
       <p class="w3-large">Pandemik Flu 1918 (biasa disebut Flu Spanyol) adalah Pandemik Influenza kategori 5 yang mulai menyebar di Amerika Serikat, muncul di Afrika Barat dan Prancis, lalu menyebar hampir ke seluruh dunia. Penyakit ini disebabkan oleh Virus Influenza Tipe A subtipe H1N1. Kebanyakan korban Flu ini adalah orang dewasa dan muda.
       </p> 
@@ -65,36 +65,49 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Gejala Section -->
   <div class="w3-row w3-padding-64" id="gejala">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center"><strong>Gejalanya Apa??</strong></h1><br>
-      <p class="w3-large">Namanya flu, tapi ini ada tambahan kata "Spanish", apakah gejalanya sama seperti flu biasa? Ayo cari tau <a href="gejala.html">disini</a> </p> 
+      <h1 class="w3-center">Gejalanya Apa??</h1><br>
+      <p class="w3-large">penjelasan gejala</p> 
     </div>
-
     <div class="w3-col l6 w3-padding-large w3-hide-small">
       <img src="Gejala.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" style="width:100%">
     </div>
   </div>
 
-  <!-- Asal Section -->
-  <div class="w3-row w3-padding-64" id="asalmula">
+  <hr>
+  <!-- Pencegahan Section -->
+  <div class="w3-row w3-padding-64" id="pencegahan">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
      <img src="stopvirus.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center"><strong>Asal Mula</strong></h1><br>
-      <p class="w3-large">Spanish Flu. Yang pertama kali terpikirkan flu dan Spanyol. Tapi bukan berarti wabah ini berasal dari Spanyol. Lalu bagaimana asal mula Spanish Flu? Cari tahu <a href="asalmula.html">disini</a> </p> 
+      <h1 class="w3-center">Pencegahan</h1><br>
+      <p class="w3-large">pencegahan</p> 
 
+      <p class="w3-large w3-text-grey w3-hide-medium">Pencegahan</p>
     </div>
   </div>
   
 
   <!-- Peta Section -->
-  <div class="w3-row w3-padding-64" id="gejala"> 
-   <div class="w3-col l6 w3-padding-large">
-    <h1 class="w3-center"><strong>Wilayah Terdampak</strong></h1><br>
-    <p class="w3-large">Penyebaran wabah ini cukup cepat dan menyerang banyak negara. Baca lebih lanjut tentang <a href="wilayah.html">wilayah terdampak spanish flu</a>.</p>
-   </div>
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Wilayah Terdampak</h1><br>
+      <h4>Daerah 1</h4>
+      <p class="w3-text-grey">disitu</p>
+      <h4>Daerah 2</h4>
+      <p class="w3-text-grey">disini</p>
+      <h4>Daerah 3</h4>
+      <p class="w3-text-grey">disini</p>
+   
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="petasebaran.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:65%">
+    </div>
   </div>
+</div>
+</body>
 
   <hr>
 
