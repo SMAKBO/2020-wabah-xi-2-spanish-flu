@@ -15,31 +15,81 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-blue w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="index.html" class="w3-bar-item w3-button">All About Spanish Flu</a> 
-    <div class="w3-right">
-      <a href="pencegahan.html" class="w3-bar-item w3-button w3-right">Pencegahan</a>
-      <a href="pengobatan.html" class="w3-bar-item w3-button">Pengobatan</a>
-      <a href="penanggulangan.html" class="w3-bar-item w3-button">Penanggulangan</a>
-      <a href="galery.html" class="w3-bar-item w3-button">Galery</a>
-    </div>
-  </div>
+ <div class="w3-bar" id="myNavbar">
+  <a class="w3-bar-item w3-button " onclick="toggleFunction()">
+    <a href="#home" class="w3-bar-item w3-button">All About Spanish Flu</a>
+    <a href="pencegahan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Pencegahan</a>
+    <a href="pengobatan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Pengobatan</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-button w3-hide-small w3-right">Penanggulangan</a>
+    <a href="galery.html" class="w3-bar-item w3-button w3-hide-small w3-right">Galery</a>
+ </div>
+
+ <!--Navbar on small screens -->
+ <div id="navDemo" class="w3-bar w3-blue w3-hide-large w3-hide-medium">
+     <a href="pencegahan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Pencegahan</a>
+     <a href="pengobatan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Pengobatan</a>
+     <a href="penanggulangan.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Penanggulangan</a>
+     <a href="galery.html" class="w3-bar-item-w3-button"
+     onclick="toggleFunction()">Galery</a>
+ </div>
 </div>
+
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
-  <img class="w3-image" src="Dokter.png" alt="dokter" width="1400" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <p class="w3-large"> Kita dari grup <bold>MEDICINA</>. Kenapa namanya <bold>MEDICINA</bold>?? MEDICINA itu bahasa Yunani dari obat. Kami milih ini karena pengertian berhubungan dengan apa yang dibahas sekarang yaitu suatu wabah penyakit.
-    </p>
-  </div>
+  <img class="w3-image" src="Dokterr.jpg" alt="dokter" width="1500" height="200">
 </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
+  <h1 class="w3-center">Hallo</h1>
+  <p> Kami dari grup <b>MEDICINA</b> (kelompok 2 XI-2). Kenapa namanya <b>MEDICINA</b>? Medicina adalah bahasa Spanyol dari obat. Kami memilih  nama ini karena pengertian berhubungan dengan apa yang dibahas sekarang yaitu suatu wabah penyakit dan berasal dari bahasa Spanyol juga karena kita membahas "Spanish" flu.</p><br>
+  <!-- image section -->
   <h1 class="w3-center"><strong>Our Team</strong></h1><br>
-  Untuk foto
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="nailah.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="250">
+     <p class="w3-large">Nailah Ibtisham Hulwah</p>
+    </div>
 
+    <div class="w3-col m6 w3-padding-large">
+      <img src="deen.jpg" class="w3-round w3-image w3-opacity-min w3-center" alt="Table Setting" width="200" height="250">
+      <p class="w3-large">Daffa Noor Qafqaz</p> 
+    </div>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="adin.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="250">
+     <p class="w3-large">Adinnisa Trianingsih</p>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <img src="dias.jpg" class="w3-round w3-image w3-opacity-min w3-center" alt="Table Setting" width="200" height="250">
+      <p class="w3-large">Dias Ilyasa</p> 
+    </div>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="lidya.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="250">
+     <p class="w3-large">Lidya Ayu Pratiwi</p>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <img src="fifi.jpg" class="w3-round w3-image w3-opacity-min w3-center" alt="Table Setting" width="200" height="250">
+      <p class="w3-large">Fifi Zakiyah</p> 
+    </div>
+  </div>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="nurul.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="250">
+     <p class="w3-large">Nurul Affira</p>
+    </div>
+  </div>
+
+  <hr>
 </div>
   
 <!-- End page content -->
